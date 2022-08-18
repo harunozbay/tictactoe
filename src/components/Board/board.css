@@ -1,0 +1,18 @@
+.board-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info{
+  margin-bottom: 10px;
+  font-size: 26px;
+  font-weight: bold;
+  font-style: italic;
+  align-self: baseline;
+
+}
+
+.board{
+  box-shadow: 8px 8px 2px 0px #bababa;
+}

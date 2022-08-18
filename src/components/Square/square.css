@@ -1,0 +1,32 @@
+.square {
+  border: 4px solid black;
+  float: left;
+  height: 128px;
+  line-height: 128px;
+  width: 128px;
+  font-size: 64px;
+  font-weight: bold;
+  margin: -2px;
+  padding: 0;
+  text-align: center;
+  cursor: default;
+  background-color: wheat;
+  /* color: darkslategrey; */
+
+}
+
+.hoverable:hover {
+  background-color: lightgoldenrodyellow;
+  cursor: pointer;
+
+}
+
+.clickable:active {
+  transform: translate(-5px,-5px);
+  /* box-shadow: 4px 2px 2px 0px #bababa; */
+
+}
+
+.green{
+  background-color: limegreen;
+}
